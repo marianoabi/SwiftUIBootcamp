@@ -7,7 +7,34 @@
 
 import SwiftUI
 
-struct Item: Identifiable {
+let items = [
+    Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
+    Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
+    Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
+    Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
+    Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
+    Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true),
+    Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
+    Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
+    Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
+    Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
+    Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
+    Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true),
+    Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
+    Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
+    Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
+    Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
+    Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
+    Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true),
+    Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
+    Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
+    Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
+    Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
+    Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
+    Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true)
+]
+
+struct Item: Identifiable, Hashable {
     let id = UUID()
     let image: String
     let firstName: String
@@ -39,33 +66,6 @@ struct ImageTextField: View {
 struct StacksChallenge: View {
 
     @State private var searchText: String = ""
-
-    let items = [
-        Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
-        Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
-        Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
-        Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
-        Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
-        Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true),
-        Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
-        Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
-        Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
-        Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
-        Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
-        Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true),
-        Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
-        Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
-        Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
-        Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
-        Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
-        Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true),
-        Item(image: "jollibee-red", firstName: "Jollibee", lastName: "Binakayan", isFollowing: true),
-        Item(image: "mcdo", firstName: "Mcdo", lastName: "Binakayan", isFollowing: true),
-        Item(image: "greenwich", firstName: "Greenwich", lastName: "Binakayan", isFollowing: false),
-        Item(image: "wendys", firstName: "Wendys", lastName: "Binakayan", isFollowing: true),
-        Item(image: "chowking", firstName: "Chowking", lastName: "Binakayan", isFollowing: false),
-        Item(image: "burgerking", firstName: "Burger King", lastName: "Binakayan", isFollowing: true)
-    ]
 
     var body: some View {
         VStack() {

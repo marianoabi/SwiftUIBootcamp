@@ -18,6 +18,7 @@
 		E1BB4F4E2BFADE2E00FC6B7A /* StacksChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F4D2BFADE2E00FC6B7A /* StacksChallenge.swift */; };
 		E1BB4F512BFB163100FC6B7A /* PaddingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F502BFB163100FC6B7A /* PaddingModule.swift */; };
 		E1BB4F542BFB19FA00FC6B7A /* SpacersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F532BFB19FA00FC6B7A /* SpacersModule.swift */; };
+		E1BB4F572BFB237C00FC6B7A /* LoopsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F562BFB237C00FC6B7A /* LoopsModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E1BB4F4D2BFADE2E00FC6B7A /* StacksChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksChallenge.swift; sourceTree = "<group>"; };
 		E1BB4F502BFB163100FC6B7A /* PaddingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModule.swift; sourceTree = "<group>"; };
 		E1BB4F532BFB19FA00FC6B7A /* SpacersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersModule.swift; sourceTree = "<group>"; };
+		E1BB4F562BFB237C00FC6B7A /* LoopsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				E1BB4F492BF9FC5500FC6B7A /* Stacks */,
 				E1BB4F4F2BFB161900FC6B7A /* Padding */,
 				E1BB4F522BFB19E600FC6B7A /* Spacers */,
+				E1BB4F552BFB236300FC6B7A /* Loops */,
 				E1BB4F332BF99C8A00FC6B7A /* Assets.xcassets */,
 				E1BB4F352BF99C8A00FC6B7A /* Preview Content */,
 			);
@@ -160,6 +163,14 @@
 			path = Spacers;
 			sourceTree = "<group>";
 		};
+		E1BB4F552BFB236300FC6B7A /* Loops */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB4F562BFB237C00FC6B7A /* LoopsModule.swift */,
+			);
+			path = Loops;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +250,7 @@
 				E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */,
 				E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */,
 				E1BB4F432BF9AA2D00FC6B7A /* ShapesModule.swift in Sources */,
+				E1BB4F572BFB237C00FC6B7A /* LoopsModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
