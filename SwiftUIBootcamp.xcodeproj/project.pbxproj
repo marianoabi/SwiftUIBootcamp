@@ -15,6 +15,7 @@
 		E1BB4F432BF9AA2D00FC6B7A /* ShapesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F422BF9AA2D00FC6B7A /* ShapesModule.swift */; };
 		E1BB4F482BF9F43200FC6B7A /* ImagesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F472BF9F43200FC6B7A /* ImagesModule.swift */; };
 		E1BB4F4B2BF9FC7000FC6B7A /* StacksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F4A2BF9FC7000FC6B7A /* StacksModule.swift */; };
+		E1BB4F4E2BFADE2E00FC6B7A /* StacksChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F4D2BFADE2E00FC6B7A /* StacksChallenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E1BB4F422BF9AA2D00FC6B7A /* ShapesModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesModule.swift; sourceTree = "<group>"; };
 		E1BB4F472BF9F43200FC6B7A /* ImagesModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModule.swift; sourceTree = "<group>"; };
 		E1BB4F4A2BF9FC7000FC6B7A /* StacksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksModule.swift; sourceTree = "<group>"; };
+		E1BB4F4D2BFADE2E00FC6B7A /* StacksChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		E1BB4F2E2BF99C8900FC6B7A /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
 				E1BB4F442BF9F3C400FC6B7A /* App */,
 				E1BB4F452BF9F40800FC6B7A /* Root */,
 				E1BB4F3D2BF9A54F00FC6B7A /* Text */,
@@ -125,6 +128,14 @@
 				E1BB4F4A2BF9FC7000FC6B7A /* StacksModule.swift */,
 			);
 			path = Stacks;
+			sourceTree = "<group>";
+		};
+		E1BB4F4C2BFADE1A00FC6B7A /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB4F4D2BFADE2E00FC6B7A /* StacksChallenge.swift */,
+			);
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			files = (
 				E1BB4F4B2BF9FC7000FC6B7A /* StacksModule.swift in Sources */,
 				E1BB4F482BF9F43200FC6B7A /* ImagesModule.swift in Sources */,
+				E1BB4F4E2BFADE2E00FC6B7A /* StacksChallenge.swift in Sources */,
 				E1BB4F3F2BF9A58A00FC6B7A /* TextModule.swift in Sources */,
 				E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */,
 				E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */,

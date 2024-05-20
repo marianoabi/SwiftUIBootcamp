@@ -57,17 +57,29 @@ struct StacksModule: View {
             }
 
             ZStack(alignment: .bottomTrailing) {
-                RoundedRectangle(cornerRadius: 15, style: .continuous)
-                    .foregroundStyle(.orange)
-                    .frame(width: 150, height: 150)
+                ZStack(alignment: .topLeading) {
+                    RoundedRectangle(cornerRadius: 15, style: .continuous)
+                        .foregroundStyle(.orange)
+                        .frame(width: 150, height: 150)
+                    Text("The World")
+                        .foregroundStyle(.blue)
+                }
 
-                RoundedRectangle(cornerRadius: 15, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
-                    .foregroundStyle(.cyan)
-                    .frame(width: 100, height: 100)
+                ZStack(alignment: .topLeading) {
+                    RoundedRectangle(cornerRadius: 15, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
+                        .foregroundStyle(.cyan)
+                        .frame(width: 100, height: 100)
+                    Text("Vs")
+                        .foregroundStyle(.red)
+                }
 
-                RoundedRectangle(cornerRadius: 15, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
-                    .foregroundStyle(.brown)
-                    .frame(width: 50, height: 50)
+                ZStack() {
+                    RoundedRectangle(cornerRadius: 15, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
+                        .foregroundStyle(.brown)
+                        .frame(width: 50, height: 50)
+                    Text("Me")
+                        .foregroundStyle(.green)
+                }
             }
         }
     }
