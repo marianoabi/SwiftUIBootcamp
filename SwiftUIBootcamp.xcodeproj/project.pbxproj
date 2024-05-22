@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E191E6422BFDE84D0033B69E /* ScrollViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */; };
 		E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F2F2BF99C8900FC6B7A /* SwiftUIBootcampApp.swift */; };
 		E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F312BF99C8900FC6B7A /* ContentView.swift */; };
 		E1BB4F342BF99C8A00FC6B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BB4F332BF99C8A00FC6B7A /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsModule.swift; sourceTree = "<group>"; };
 		E1BB4F2C2BF99C8900FC6B7A /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BB4F2F2BF99C8900FC6B7A /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		E1BB4F312BF99C8900FC6B7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		E1BB4F2E2BF99C8900FC6B7A /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				E1BB4F582BFD87B700FC6B7A /* ScrollViews */,
 				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
 				E1BB4F442BF9F3C400FC6B7A /* App */,
 				E1BB4F452BF9F40800FC6B7A /* Root */,
@@ -171,6 +174,14 @@
 			path = Loops;
 			sourceTree = "<group>";
 		};
+		E1BB4F582BFD87B700FC6B7A /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,6 +260,7 @@
 				E1BB4F3F2BF9A58A00FC6B7A /* TextModule.swift in Sources */,
 				E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */,
 				E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */,
+				E191E6422BFDE84D0033B69E /* ScrollViewsModule.swift in Sources */,
 				E1BB4F432BF9AA2D00FC6B7A /* ShapesModule.swift in Sources */,
 				E1BB4F572BFB237C00FC6B7A /* LoopsModule.swift in Sources */,
 			);
