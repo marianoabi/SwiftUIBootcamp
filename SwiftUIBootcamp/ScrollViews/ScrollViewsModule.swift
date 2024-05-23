@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct ScrollViewsModule: View {
+var foods = [
+    "food1",
+    "food2",
+    "food3",
+    "food4",
+    "food5",
+    "food6",
+    "food7",
+    "food8",
+    "food9",
+    "food10"
+]
 
-    let foods = [
-        "food1",
-        "food2",
-        "food3",
-        "food4",
-        "food5",
-        "food6",
-        "food7",
-        "food8",
-        "food9",
-        "food10"
-    ]
+struct ScrollViewsModule: View {
 
     var body: some View {
         VStack(alignment: .leading) {
