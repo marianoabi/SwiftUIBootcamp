@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E174CE6B2BFEDE4B007B903A /* ListsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174CE6A2BFEDE4B007B903A /* ListsModule.swift */; };
+		E174CE6E2BFEE3BB007B903A /* ButtonsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174CE6D2BFEE3BB007B903A /* ButtonsModule.swift */; };
 		E191E6422BFDE84D0033B69E /* ScrollViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */; };
 		E191E6452BFDF4A30033B69E /* GridsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191E6442BFDF4A30033B69E /* GridsModule.swift */; };
 		E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F2F2BF99C8900FC6B7A /* SwiftUIBootcampApp.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		E174CE6A2BFEDE4B007B903A /* ListsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsModule.swift; sourceTree = "<group>"; };
+		E174CE6D2BFEE3BB007B903A /* ButtonsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModule.swift; sourceTree = "<group>"; };
 		E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsModule.swift; sourceTree = "<group>"; };
 		E191E6442BFDF4A30033B69E /* GridsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsModule.swift; sourceTree = "<group>"; };
 		E1BB4F2C2BF99C8900FC6B7A /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +62,14 @@
 				E174CE6A2BFEDE4B007B903A /* ListsModule.swift */,
 			);
 			path = Lists;
+			sourceTree = "<group>";
+		};
+		E174CE6C2BFEE3AF007B903A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E174CE6D2BFEE3BB007B903A /* ButtonsModule.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		E191E6432BFDF4910033B69E /* Grids */ = {
@@ -102,6 +112,7 @@
 				E1BB4F582BFD87B700FC6B7A /* ScrollViews */,
 				E191E6432BFDF4910033B69E /* Grids */,
 				E174CE692BFEDE31007B903A /* Lists */,
+				E174CE6C2BFEE3AF007B903A /* Buttons */,
 				E1BB4F332BF99C8A00FC6B7A /* Assets.xcassets */,
 				E1BB4F352BF99C8A00FC6B7A /* Preview Content */,
 			);
@@ -283,6 +294,7 @@
 				E1BB4F512BFB163100FC6B7A /* PaddingModule.swift in Sources */,
 				E1BB4F3F2BF9A58A00FC6B7A /* TextModule.swift in Sources */,
 				E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */,
+				E174CE6E2BFEE3BB007B903A /* ButtonsModule.swift in Sources */,
 				E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */,
 				E191E6422BFDE84D0033B69E /* ScrollViewsModule.swift in Sources */,
 				E1BB4F432BF9AA2D00FC6B7A /* ShapesModule.swift in Sources */,
