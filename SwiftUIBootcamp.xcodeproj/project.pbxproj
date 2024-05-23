@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E191E6422BFDE84D0033B69E /* ScrollViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */; };
+		E191E6452BFDF4A30033B69E /* GridsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191E6442BFDF4A30033B69E /* GridsModule.swift */; };
 		E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F2F2BF99C8900FC6B7A /* SwiftUIBootcampApp.swift */; };
 		E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F312BF99C8900FC6B7A /* ContentView.swift */; };
 		E1BB4F342BF99C8A00FC6B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BB4F332BF99C8A00FC6B7A /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsModule.swift; sourceTree = "<group>"; };
+		E191E6442BFDF4A30033B69E /* GridsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsModule.swift; sourceTree = "<group>"; };
 		E1BB4F2C2BF99C8900FC6B7A /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BB4F2F2BF99C8900FC6B7A /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		E1BB4F312BF99C8900FC6B7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E191E6432BFDF4910033B69E /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				E191E6442BFDF4A30033B69E /* GridsModule.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
 		E1BB4F232BF99C8900FC6B7A = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		E1BB4F2E2BF99C8900FC6B7A /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				E191E6432BFDF4910033B69E /* Grids */,
 				E1BB4F582BFD87B700FC6B7A /* ScrollViews */,
 				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
 				E1BB4F442BF9F3C400FC6B7A /* App */,
@@ -255,6 +266,7 @@
 				E1BB4F4B2BF9FC7000FC6B7A /* StacksModule.swift in Sources */,
 				E1BB4F542BFB19FA00FC6B7A /* SpacersModule.swift in Sources */,
 				E1BB4F482BF9F43200FC6B7A /* ImagesModule.swift in Sources */,
+				E191E6452BFDF4A30033B69E /* GridsModule.swift in Sources */,
 				E1BB4F4E2BFADE2E00FC6B7A /* StacksChallenge.swift in Sources */,
 				E1BB4F512BFB163100FC6B7A /* PaddingModule.swift in Sources */,
 				E1BB4F3F2BF9A58A00FC6B7A /* TextModule.swift in Sources */,
