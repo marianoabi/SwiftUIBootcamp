@@ -27,6 +27,7 @@
 		E1DEE1B52C0DA6D900EF5534 /* GradientsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1B42C0DA6D900EF5534 /* GradientsModule.swift */; };
 		E1DEE1B82C0DB05F00EF5534 /* IconsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1B72C0DB05F00EF5534 /* IconsModule.swift */; };
 		E1DEE1BB2C0DB7CE00EF5534 /* FrameModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1BA2C0DB7CE00EF5534 /* FrameModule.swift */; };
+		E1DEE1BE2C0DBA5E00EF5534 /* BackgroundModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1BD2C0DBA5E00EF5534 /* BackgroundModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		E1DEE1B42C0DA6D900EF5534 /* GradientsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsModule.swift; sourceTree = "<group>"; };
 		E1DEE1B72C0DB05F00EF5534 /* IconsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsModule.swift; sourceTree = "<group>"; };
 		E1DEE1BA2C0DB7CE00EF5534 /* FrameModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModule.swift; sourceTree = "<group>"; };
+		E1DEE1BD2C0DBA5E00EF5534 /* BackgroundModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				E1BB4F442BF9F3C400FC6B7A /* App */,
+				E1DEE1BC2C0DBA4E00EF5534 /* Background */,
 				E174CE6C2BFEE3AF007B903A /* Buttons */,
 				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
 				E1DEE1B02C0DA15600EF5534 /* Colors */,
@@ -259,6 +262,14 @@
 			path = Frame;
 			sourceTree = "<group>";
 		};
+		E1DEE1BC2C0DBA4E00EF5534 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEE1BD2C0DBA5E00EF5534 /* BackgroundModule.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,6 +352,7 @@
 				E1BB4F512BFB163100FC6B7A /* PaddingModule.swift in Sources */,
 				E1BB4F3F2BF9A58A00FC6B7A /* TextModule.swift in Sources */,
 				E1BB4F322BF99C8900FC6B7A /* ContentView.swift in Sources */,
+				E1DEE1BE2C0DBA5E00EF5534 /* BackgroundModule.swift in Sources */,
 				E174CE6E2BFEE3BB007B903A /* ButtonsModule.swift in Sources */,
 				E1BB4F302BF99C8900FC6B7A /* SwiftUIBootcampApp.swift in Sources */,
 				E191E6422BFDE84D0033B69E /* ScrollViewsModule.swift in Sources */,
