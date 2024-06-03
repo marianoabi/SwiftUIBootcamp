@@ -99,20 +99,21 @@
 		E1BB4F2E2BF99C8900FC6B7A /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
 				E1BB4F442BF9F3C400FC6B7A /* App */,
-				E1BB4F452BF9F40800FC6B7A /* Root */,
-				E1BB4F3D2BF9A54F00FC6B7A /* Text */,
-				E1BB4F412BF9AA0A00FC6B7A /* Shapes */,
-				E1BB4F462BF9F41A00FC6B7A /* Images */,
-				E1BB4F492BF9FC5500FC6B7A /* Stacks */,
-				E1BB4F4F2BFB161900FC6B7A /* Padding */,
-				E1BB4F522BFB19E600FC6B7A /* Spacers */,
-				E1BB4F552BFB236300FC6B7A /* Loops */,
-				E1BB4F582BFD87B700FC6B7A /* ScrollViews */,
-				E191E6432BFDF4910033B69E /* Grids */,
-				E174CE692BFEDE31007B903A /* Lists */,
 				E174CE6C2BFEE3AF007B903A /* Buttons */,
+				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
+				E1DEE1B02C0DA15600EF5534 /* Colors */,
+				E191E6432BFDF4910033B69E /* Grids */,
+				E1BB4F462BF9F41A00FC6B7A /* Images */,
+				E174CE692BFEDE31007B903A /* Lists */,
+				E1BB4F552BFB236300FC6B7A /* Loops */,
+				E1BB4F4F2BFB161900FC6B7A /* Padding */,
+				E1BB4F582BFD87B700FC6B7A /* ScrollViews */,
+				E1BB4F412BF9AA0A00FC6B7A /* Shapes */,
+				E1BB4F522BFB19E600FC6B7A /* Spacers */,
+				E1BB4F492BF9FC5500FC6B7A /* Stacks */,
+				E1BB4F3D2BF9A54F00FC6B7A /* Text */,
+				E1BB4F452BF9F40800FC6B7A /* Root */,
 				E1BB4F332BF99C8A00FC6B7A /* Assets.xcassets */,
 				E1BB4F352BF99C8A00FC6B7A /* Preview Content */,
 			);
@@ -213,6 +214,13 @@
 				E191E6412BFDE84D0033B69E /* ScrollViewsModule.swift */,
 			);
 			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		E1DEE1B02C0DA15600EF5534 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

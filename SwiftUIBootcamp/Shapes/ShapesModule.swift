@@ -20,10 +20,13 @@ struct CustomShape: Shape {
 
 struct ShapesModule: View {
     var body: some View {
-        Circle()
-            .stroke(lineWidth: 24)
-            .foregroundStyle(.purple)
-            .frame(width: 50, height: 50)
+//        Circle()
+        Ellipse()
+//            .stroke(Color.orange, style: StrokeStyle(lineWidth: 10, lineCap: .butt, dash: [10]))
+//            .foregroundStyle(.purple)
+//            .frame(width: 50, height: 50)
+//            .trim(from: 0.2, to: 1.0)
+//            .stroke(.purple, lineWidth: 10)
 
         Rectangle()
             .stroke(Color.green, lineWidth: 4)

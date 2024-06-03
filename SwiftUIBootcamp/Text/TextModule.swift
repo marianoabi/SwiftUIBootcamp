@@ -13,9 +13,11 @@ struct TextModule: View {
             .font(.subheadline) // view modifier
             .foregroundStyle(.cyan)
             .fontWeight(.light)
-            .multilineTextAlignment(.center)
+            .multilineTextAlignment(.leading)
             .italic()
             .underline()
+            .baselineOffset(10)
+            .kerning(10)
     }
 }
 
