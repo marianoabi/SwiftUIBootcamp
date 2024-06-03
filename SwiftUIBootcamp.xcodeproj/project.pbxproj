@@ -26,6 +26,7 @@
 		E1DEE1B22C0DA21400EF5534 /* ColorsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1B12C0DA21400EF5534 /* ColorsModule.swift */; };
 		E1DEE1B52C0DA6D900EF5534 /* GradientsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1B42C0DA6D900EF5534 /* GradientsModule.swift */; };
 		E1DEE1B82C0DB05F00EF5534 /* IconsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1B72C0DB05F00EF5534 /* IconsModule.swift */; };
+		E1DEE1BB2C0DB7CE00EF5534 /* FrameModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1BA2C0DB7CE00EF5534 /* FrameModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		E1DEE1B12C0DA21400EF5534 /* ColorsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModule.swift; sourceTree = "<group>"; };
 		E1DEE1B42C0DA6D900EF5534 /* GradientsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsModule.swift; sourceTree = "<group>"; };
 		E1DEE1B72C0DB05F00EF5534 /* IconsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsModule.swift; sourceTree = "<group>"; };
+		E1DEE1BA2C0DB7CE00EF5534 /* FrameModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E174CE6C2BFEE3AF007B903A /* Buttons */,
 				E1BB4F4C2BFADE1A00FC6B7A /* Challenge */,
 				E1DEE1B02C0DA15600EF5534 /* Colors */,
+				E1DEE1B92C0DB7B700EF5534 /* Frame */,
 				E1DEE1B32C0DA6C400EF5534 /* Gradients */,
 				E191E6432BFDF4910033B69E /* Grids */,
 				E1DEE1B62C0DB05100EF5534 /* Icons */,
@@ -248,6 +251,14 @@
 			path = Icons;
 			sourceTree = "<group>";
 		};
+		E1DEE1B92C0DB7B700EF5534 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEE1BA2C0DB7CE00EF5534 /* FrameModule.swift */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,6 +334,7 @@
 				E1DEE1B22C0DA21400EF5534 /* ColorsModule.swift in Sources */,
 				E1BB4F542BFB19FA00FC6B7A /* SpacersModule.swift in Sources */,
 				E1BB4F482BF9F43200FC6B7A /* ImagesModule.swift in Sources */,
+				E1DEE1BB2C0DB7CE00EF5534 /* FrameModule.swift in Sources */,
 				E191E6452BFDF4A30033B69E /* GridsModule.swift in Sources */,
 				E1BB4F4E2BFADE2E00FC6B7A /* StacksChallenge.swift in Sources */,
 				E1DEE1B52C0DA6D900EF5534 /* GradientsModule.swift in Sources */,

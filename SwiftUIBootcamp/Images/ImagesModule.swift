@@ -30,6 +30,14 @@ struct ImagesModule: View {
             .frame(width: 200, height: 200)
             .clipShape(.circle)
 
+        Image("firebase-icon")
+//            .renderingMode(.template)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 300, height: 200)
+            .foregroundStyle(.black)
+//            .cornerRadius(150)
+//            .clipShape(Circle())
     }
 }
 
