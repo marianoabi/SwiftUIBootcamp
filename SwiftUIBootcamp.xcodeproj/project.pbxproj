@@ -23,6 +23,7 @@
 		E1BB4F512BFB163100FC6B7A /* PaddingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F502BFB163100FC6B7A /* PaddingModule.swift */; };
 		E1BB4F542BFB19FA00FC6B7A /* SpacersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F532BFB19FA00FC6B7A /* SpacersModule.swift */; };
 		E1BB4F572BFB237C00FC6B7A /* LoopsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB4F562BFB237C00FC6B7A /* LoopsModule.swift */; };
+		E1DEE1B22C0DA21400EF5534 /* ColorsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEE1B12C0DA21400EF5534 /* ColorsModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E1BB4F502BFB163100FC6B7A /* PaddingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModule.swift; sourceTree = "<group>"; };
 		E1BB4F532BFB19FA00FC6B7A /* SpacersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersModule.swift; sourceTree = "<group>"; };
 		E1BB4F562BFB237C00FC6B7A /* LoopsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsModule.swift; sourceTree = "<group>"; };
+		E1DEE1B12C0DA21400EF5534 /* ColorsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 		E1DEE1B02C0DA15600EF5534 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				E1DEE1B12C0DA21400EF5534 /* ColorsModule.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				E174CE6B2BFEDE4B007B903A /* ListsModule.swift in Sources */,
 				E1BB4F4B2BF9FC7000FC6B7A /* StacksModule.swift in Sources */,
+				E1DEE1B22C0DA21400EF5534 /* ColorsModule.swift in Sources */,
 				E1BB4F542BFB19FA00FC6B7A /* SpacersModule.swift in Sources */,
 				E1BB4F482BF9F43200FC6B7A /* ImagesModule.swift in Sources */,
 				E191E6452BFDF4A30033B69E /* GridsModule.swift in Sources */,
